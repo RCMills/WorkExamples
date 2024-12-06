@@ -1,0 +1,2 @@
+﻿ALTER FULLTEXT CATALOG ftCatalog REBUILD;
+
