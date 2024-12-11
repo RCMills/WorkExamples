@@ -15,21 +15,6 @@ RETURNS @returntable TABLE
 )
 AS
 
-
-/***************************************************************************************************
-*					 udf_R_CatalogPackageContents
-*
-*	Purpose: Returns the current active products that included with a product in the catalog
-*
-*	Author: Chris Coneybeer
-*
-*	Origination Date: 20180905
-*
-*	History
-*	Revision		By			Date			WorkItem	
-*	0001			CSC			20180905		S20.US6 -Birth
-*	
-***************************************************************************************************/
 BEGIN
 
 	;WITH PackageProducts(ProductId, ProductName, ProductDisplayName, ProductDescription, ProductLaunchURL, ProductImage, ProductIcon, [Priority], DisplayOrder, SsoClientId)
